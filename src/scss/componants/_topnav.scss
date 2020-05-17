@@ -1,0 +1,35 @@
+.uk-navbar-nav li a,  {
+    min-height: 30px;
+    height: 30px;
+    color: $carbonbins-white;
+    font-size:0.75em;
+    :hover
+    {
+        color: $carbonbins-pink;
+    }
+}
+.hero .uk-subnav li a {
+    color: $carbonbins-white;
+    font-size:0.75em;
+    :hover
+    {
+        color: $carbonbins-pink;
+    }
+}
+
+.uk-navbar-nav a:first-child {
+    padding-left: 0px;
+    color: $carbonbins-white;
+}
+
+.uk-navbar-nav a {
+    color: $carbonbins-white;
+}
+
+.hero, .uk-navbar-nav {
+    background: $carbonbins-green;
+}
+
+.hero .uk-navbar-nav .uk-active a{
+    color: $carbonbins-pink;
+}

@@ -1,0 +1,14 @@
+.home {
+    background-image: url("/img/planet.png") ;
+    background-repeat: no-repeat;
+    background-position: right center ;
+    padding-top: 50px;
+    padding-bottom: 250px;
+    background-color: $carbonbins-green;
+    color: $carbonbins-white;
+}
+.home h1 {
+    font-size: 80px;
+    color: $carbonbins-pink;;
+    line-height: 77px;
+}

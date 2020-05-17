@@ -1,0 +1,26 @@
+{
+  "name": "carbonbins.dev",
+  "version": "1.0.0",
+  "description": "CarbonBin website creation ",
+  "main": "index.js",
+  "repository": "https://github.com/steeloctopus/carbonbins.org.git",
+  "author": "Dominic Milburn <dmilburn@steeloctopus.com>",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-load-plugins": "^2.0.3",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2",
+    "jquery": "^3.5.1",
+    "uikit": "^3.4.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp"
+  }
+}
