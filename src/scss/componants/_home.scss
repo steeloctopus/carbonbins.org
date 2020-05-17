@@ -1,0 +1,39 @@
+.home {
+    background-image: url("/img/planet.png") ;
+    background-repeat: no-repeat;
+    background-position: right center ;
+    padding-top: 50px;
+    padding-bottom: 250px;
+    background-color: $carbonbins-green;
+    color: $carbonbins-white;
+}
+.home h1 {
+    font-family: 'Bookmania-Regular';
+    font-weight: bold;
+    font-size: 80px;
+    color: $carbonbins-pink;;
+    line-height: 77px;
+}
+
+.uk-button {
+    font-family: 'GothamRounded-Light';
+    font-size: 12px;
+    font-weight: bolder;
+    color: $carbonbins-green;
+    background-color: $carbonbins-pink;
+    border-color: $carbonbins-pink;
+}
+
+.uk-button:hover
+{
+    background-color: $carbonbins-grey;
+    color: $carbonbins-pink;
+}
+.purple-card {
+    background-color: $carbonbins-pink;
+    h3 {
+        font-family: 'Bookmania-Regular';
+        color: $carbonbins-green;
+        font-weight: bold;
+    }
+}

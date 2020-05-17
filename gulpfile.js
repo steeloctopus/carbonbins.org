@@ -22,6 +22,17 @@ gulp.task('styles', (done) => {
     done();
 });
 
+gulp.task('copy', function () {
+    gulp.src('src/font/bookmania/*.*')
+        .pipe(gulp.dest('app/font/bookmania/'));
+    gulp.src('src/font/gotham-condensed/*.*')
+        .pipe(gulp.dest('app/font/gotham-condensed/'));
+    gulp.src('src/font/gotham-light/*.*')
+        .pipe(gulp.dest('app/font/gotham-light/'));
+    gulp.src('src/img/*.*')
+        .pipe(gulp.dest('app/img'));
+});
+
 // Compile and minify JS
 gulp.task('js', (done) => {
     gulp.src([
@@ -62,5 +73,5 @@ gulp.task('watch', function(done) {
 
 
 // Default task
-gulp.task('default', gulp.series('styles','js','browser-sync', 'watch', function(done) { done(); }) );
+gulp.task('default', gulp.series('styles','js','browser-sync', 'watch','copy', function(done) { done(); }) );
 // gulp.task('default', gulp.series('styles', 'js', 'watch', function(done) { done(); }) );

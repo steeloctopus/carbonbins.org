@@ -10,7 +10,7 @@
         <p>You throw out your garbage. You recycle your plastic. Carbon Bin makes it easy to instantly get rid of your
           carbon emissions.
         </p>
-        <a class="uk-button uk-button-default" href="">Learn more</a>
+        <a class="uk-button" href="">Learn more</a>
       </div>
     </div>
 
@@ -20,14 +20,14 @@
 <div class="uk-container">
 <div class="uk-grid-match uk-child-width-expand@s uk-text-center" uk-grid>
   <div>
-    <div class="uk-card uk-card-default uk-card-body">
+    <div class="purple-card uk-card uk-card-default uk-card-body">
       <h3>How it works?</h3>
       <p>We crowdfund the removal of carbon pollution from the atmosphere and seek to prevent it.</p>
       <a class="uk-button uk-button-default" href="">Remove your carbon</a>
     </div>
   </div>
   <div>
-    <div class="uk-card uk-card-default uk-card-body">
+    <div class="purple-card uk-card uk-card-default uk-card-body">
       <h3>What happens to your carbon</h3>
       <p>We crowdfund the removal of CO<sup>2</sup> pollution from the atmosphere and seek to prevent it.</p>
       <a class="uk-button uk-button-default" href="">Find out more</a>

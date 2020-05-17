@@ -1,12 +1,13 @@
+
 // 1. Your custom variables, variable overrides, tools and resets.
 @import "settings/variables";
 @import "settings/fonts";
-
+@import "settings/globals";
 
 //// 2. Import default variables and available mixins.
 
 @import "../../node_modules/uikit/src/scss/mixins";
-@import "../../node_modules/uikit/src/scss/mixins-theme";
+//@import "../../node_modules/uikit/src/scss/mixins-theme";
 @import "../../node_modules/uikit/src/scss/variables";
 @import "../../node_modules/uikit/src/scss/variables-theme";
 //@import "../../node_modules/uikit/src/scss/uikit-theme";
@@ -17,4 +18,4 @@
 @import "../../node_modules/uikit/src/scss/uikit"; // This will import everything
 
 @import "componants/topnav";
-@import "componants/hero";
+@import "componants/home";
