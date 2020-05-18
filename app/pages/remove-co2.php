@@ -1,6 +1,6 @@
 <?php include('partials/header.php') ?>
 
-<div class="uk-section uk-section-secondary uk-preserve-color">
+<div class="content uk-section">
   <div class="uk-container">
     <div class="uk-panel uk-margin-medium">
       <div class="uk-width-2-3@m">

@@ -1,11 +1,10 @@
 <?php include('partials/header.php') ?>
 
-<div class="uk-section uk-section-secondary uk-preserve-color">
+<div class="content uk-section">
   <div class="uk-container">
     <div class="uk-panel uk-margin-medium">
       <div class="uk-flex-middle" uk-grid>
         <div class="uk-width-3-3@m">
-
           <h1>Where does my money go?</h1>
           <h2>Money that we receive via our bins (our payments devices) pays to remove CO<sup>2</sup> from the air.</h2>
         </div>

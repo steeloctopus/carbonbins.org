@@ -1,11 +1,11 @@
 <?php include('partials/header.php') ?>
 
-<div class="uk-section uk-section-secondary uk-preserve-color">
+<div class="content uk-section">
   <div class="uk-container">
     <div class="uk-panel uk-margin-medium">
       <div class="uk-flex-middle" uk-grid>
         <div class="uk-width-3-3@m">
-          <h1>PARTNER WITH US</h1>
+          <h1>Partner with us.</h1>
         </div>
         <div class="uk-width-2-3@m">
           <p>Fixing climate change will be the greatest challenge that our species will embark upon.</p>

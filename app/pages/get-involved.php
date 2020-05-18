@@ -1,6 +1,6 @@
 <?php include('partials/header.php') ?>
 
-<div class="uk-section uk-section-secondary uk-preserve-color">
+<div class="content uk-section">
   <div class="uk-container">
     <div class="uk-panel uk-margin-medium">
       <div class="uk-flex-middle" uk-grid>
@@ -16,7 +16,8 @@
           <p>If you would like to join, or have a specific query please feel free to get in touch at <a
               href="mailto:info@carbonbins.org">info@carbonbins.org</a></p>
           <p>To become a member, please follow the below link to google forms  to fill out a <a href="https://docs
-          .google.com/forms/d/1wBOwWMdxcWL9EHB8f8GV1QhgPLZiwM1r8dc-emTC3RY" target="_blank">membership application:</p>
+          .google.com/forms/d/1wBOwWMdxcWL9EHB8f8GV1QhgPLZiwM1r8dc-emTC3RY" target="_blank">membership
+              application:</a> </p>
         </div>
       </div>
     </div>

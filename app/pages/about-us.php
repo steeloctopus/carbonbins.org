@@ -1,8 +1,8 @@
 <?php include('partials/header.php') ?>
 
-<div class="uk-section uk-section-secondary uk-preserve-color">
+<div class="content uk-section">
   <div class="uk-container">
-    <div class="uk-panel uk-margin-medium">
+    <div class="uk-panel uk-margin-small">
       <div class="uk-width-2-3@m">
       <h1>We are empowering people to do take action on climate change.</h1>
       </div>
@@ -23,7 +23,7 @@
       </div>
     </div>
 
-    <div class="uk-grid-match" uk-grid>
+    <div class="founding-members uk-grid-match" uk-grid>
       <div>
         <div class="uk-card uk-width-auto@m uk-card-default">
           <div class="uk-card-media-top">
@@ -31,9 +31,9 @@
           </div>
           <div class="uk-card-body uk-padding-small">
             <h3 class="uk-card-title">Dr Tim Willis,</h3>
-            <p>President</p>
-            <p>Academic Lecturer <br/>
-              Australian Institute of Music
+            <p>President,<br/>
+            Academic Lecturer <br/>
+            Australian Institute of Music
             </p>
           </div>
         </div>
@@ -45,8 +45,7 @@
           </div>
           <div class="uk-card-body uk-padding-small">
             <h3 class="uk-card-title">Mr Sean Elliot,</h3>
-            <p>Vice-President</p>
-            <p>Writer and Science Educator
+            <p>Vice-President<br/>Writer and Science Educator
             </p>
           </div>
         </div>
@@ -57,9 +56,8 @@
             <img src="../img/people/n_tokita.png" alt="">
           </div>
           <div class="uk-card-body uk-padding-small">
-            <h3 class="uk-card-title">Mr H. Nowaki <br/>McQueen-Tokita,</h3>
-            <p>Treasurer</p>
-            <p>Director of McQueen Group<br/> Financial Services
+            <h3 class="uk-card-title">Mr H. Nowaki<br/>McQueen-Tokita,</h3>
+            <p>Treasurer,<br/>Director of McQueen Group<br/> Financial Services
             </p>
           </div>
         </div>
@@ -67,7 +65,7 @@
     </div>
 
 
-    <div class="uk-grid-match" uk-grid>
+    <div class="founding-members uk-grid-match" uk-grid>
       <div>
         <div class="uk-card uk-width-auto@m uk-card-default">
           <div class="uk-card-media-top">
@@ -88,7 +86,7 @@
           </div>
           <div class="uk-card-body uk-padding-small">
             <h3 class="uk-card-title">Mr Dominic Milburn,</h3>
-            <p>Founding member <br/>
+            <p>Founding member,<br/>
               Digital Solutions Architect
             </p>
           </div>
@@ -101,8 +99,7 @@
           </div>
           <div class="uk-card-body uk-padding-small">
             <h3 class="uk-card-title">Ms Rebeca Enright,</h3>
-            <p>President</p>
-            <p>Senior Manager Environmental <br/>
+            <p>Founding member,<br/>Senior Manager Environmental <br/>
               Services, CO2 Australia
             </p>
           </div>
