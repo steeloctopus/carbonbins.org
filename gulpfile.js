@@ -25,8 +25,8 @@ gulp.task('styles', (done) => {
 gulp.task('copy', function () {
     gulp.src('src/font/bookmania/*.*')
         .pipe(gulp.dest('app/font/bookmania/'));
-    gulp.src('src/font/gotham-condensed/*.*')
-        .pipe(gulp.dest('app/font/gotham-condensed/'));
+    gulp.src('src/font/gotham-bold/*.*')
+        .pipe(gulp.dest('app/font/gotham-bold/'));
     gulp.src('src/font/gotham-light/*.*')
         .pipe(gulp.dest('app/font/gotham-light/'));
     gulp.src('src/img/*.*')
