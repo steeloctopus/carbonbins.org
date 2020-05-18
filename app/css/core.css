@@ -15,16 +15,71 @@
 }
 
 @font-face {
-  font-family: 'GothamCondensed-Book';
-  src: url("/font/gotham-condensed/GothamCondensed-Book.eot");
-  src: url("/font/gotham-condensed/GothamCondensed-Book.eot?#iefix") format("embedded-opentype"), url("/font/gotham-condensed/GothamCondensed-Book.svg#GothamCondensed-Book") format("svg"), url("/font/gotham-condensed/GothamCondensed-Book.ttf") format("truetype"), url("/font/gotham-condensed/GothamCondensed-Book.woff") format("woff"), url("/font/gotham-condensed/GothamCondensed-Book.woff2") format("woff2");
+  font-family: 'GothamRounded-Book';
+  src: url("/font/gotham-bold/GothamRounded-Book.eot");
+  src: url("/font/gotham-bold/GothamRounded-Book.eot?#iefix") format("embedded-opentype"), url("/font/gotham-bold/GothamRounded-Book.svg#GothamRounded-Bold") format("svg"), url("/font/gotham-bold/GothamRounded-Book.ttf") format("truetype"), url("/font/gotham-bold/GothamRounded-Book.woff") format("woff"), url("/font/gotham-bold/GothamRounded-Book.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
 p {
-  font-family: 'GothamRounded-Light';
+  font-family: "GothamRounded-Light";
   font-size: 14px;
+}
+
+.content h1 {
+  font-family: "Bookmania-Regular";
+  font-weight: bold;
+  font-size: 40px;
+  color: #CFA6CD;
+  line-height: 46px;
+}
+
+.content p {
+  color: #FFFFFF;
+  font-family: "GothamRounded-Light";
+}
+
+.content .top {
+  vertical-align: top;
+}
+
+body {
+  background-color: #296D2D;
+  padding: 0px;
+}
+
+footer {
+  background-color: #CFA6CD;
+  margin-top: 40px;
+}
+
+footer .uk-form-horizontal .uk-form-label {
+  width: 50px;
+  margin-top: 20px;
+  float: left;
+  font-family: "Bookmania-Regular";
+  font-size: 18px;
+  color: #296D2D;
+}
+
+footer .uk-form-horizontal .uk-form-controls {
+  margin-left: 50px;
+}
+
+footer .uk-input {
+  background-color: transparent;
+  border-bottom: 2px solid #296D2D;
+  font-family: "Bookmania-Regular";
+}
+
+footer .uk-input:focus {
+  background-color: transparent;
+}
+
+footer .pink-card p {
+  font-family: "Bookmania-Regular";
+  color: #296D2D;
 }
 
 /* ========================================================================
@@ -11987,7 +12042,7 @@ iframe.uk-cover {
 }
 
 .home h1 {
-  font-family: 'Bookmania-Regular';
+  font-family: "Bookmania-Regular";
   font-weight: bold;
   font-size: 80px;
   color: #CFA6CD;
@@ -11995,7 +12050,7 @@ iframe.uk-cover {
 }
 
 .uk-button {
-  font-family: 'GothamRounded-Light';
+  font-family: "GothamRounded-Light";
   font-size: 12px;
   font-weight: bolder;
   color: #296D2D;
@@ -12003,17 +12058,66 @@ iframe.uk-cover {
   border-color: #CFA6CD;
 }
 
+.pink-card .uk-button {
+  color: #CFA6CD;
+  background-color: #296D2D;
+}
+
 .uk-button:hover {
   background-color: #666666;
   color: #CFA6CD;
 }
 
-.purple-card {
+.pink-card .uk-button:hover {
+  color: #FFFFFF;
+  background-color: #666666;
+}
+
+.pink-card {
   background-color: #CFA6CD;
 }
 
-.purple-card h3 {
-  font-family: 'Bookmania-Regular';
+.pink-card h3 {
+  font-family: "Bookmania-Regular";
   color: #296D2D;
+  font-weight: bolder;
+}
+
+.pink-card p {
+  color: #296D2D;
+  font-family: "GothamRounded-Book";
+}
+
+.grey-card {
+  border: solid 2px #CFA6CD;
+  background-color: #296D2D;
+}
+
+.grey-card h3 {
+  font-family: "Bookmania-Regular";
+  color: #CFA6CD;
   font-weight: bold;
+}
+
+.grey-card p {
+  font-family: "GothamRounded-Book";
+  color: #CFA6CD;
+}
+
+.founding-members .uk-card-body, .founding-members .uk-card {
+  background-color: #CFA6CD;
+  color: #296D2D;
+}
+
+.founding-members .uk-card-body .uk-card-title, .founding-members .uk-card .uk-card-title {
+  font-family: "Bookmania-Regular";
+  font-weight: bold;
+  font-size: 16px;
+  color: #296D2D;
+}
+
+.founding-members .uk-card-body p, .founding-members .uk-card p {
+  padding: 0px;
+  color: #296D2D;
+  font-family: "GothamRounded-Book";
 }

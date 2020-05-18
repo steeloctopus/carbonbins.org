@@ -1,4 +1,54 @@
 p {
-    font-family: 'GothamRounded-Light';
+    font-family: $cb-font-secondary;
     font-size: 14px;
 }
+.content {
+    h1 {
+        font-family: $cb-font-primary;
+        font-weight: bold;
+        font-size: 40px;
+        color: $carbonbins-pink;;
+        line-height: 46px;
+    }
+    p {
+        color: $carbonbins-white;
+        font-family: $cb-font-secondary;
+    }
+    .top{
+        vertical-align: top;
+    }
+}
+
+    body {
+        background-color: $carbonbins-green;
+        padding: 0px;
+    }
+
+    footer{
+        background-color: $carbonbins-pink;
+        margin-top: 40px;
+        .uk-form-horizontal .uk-form-label{
+            width: 50px;
+            margin-top: 20px;
+            float: left;
+            font-family: $cb-font-primary;
+            font-size: 18px;
+            color: $carbonbins-green;
+        }
+        .uk-form-horizontal .uk-form-controls{
+            margin-left: 50px;
+        }
+        .uk-input {
+            background-color: transparent;
+            border-bottom: 2px solid $carbonbins-green;
+            font-family: $cb-font-primary;
+        }
+        .uk-input:focus {
+            background-color: transparent;
+        }
+        .pink-card p {
+            font-family: $cb-font-primary;
+            color: $carbonbins-green;
+        }
+    }
+

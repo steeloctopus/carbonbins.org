@@ -1,0 +1,17 @@
+.founding-members {
+    .uk-card-body, .uk-card{
+        background-color: $carbonbins-pink;
+        color: $carbonbins-green;
+        .uk-card-title{
+            font-family: $cb-font-primary;
+            font-weight: bold;
+            font-size: 16px;
+            color: $carbonbins-green;
+        }
+        p{
+            padding: 0px;
+            color: $carbonbins-green;
+            font-family: $cb-font-tertiary;
+        }
+    }
+}

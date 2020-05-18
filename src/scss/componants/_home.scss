@@ -8,7 +8,7 @@
     color: $carbonbins-white;
 }
 .home h1 {
-    font-family: 'Bookmania-Regular';
+    font-family: $cb-font-primary;
     font-weight: bold;
     font-size: 80px;
     color: $carbonbins-pink;;
@@ -16,7 +16,7 @@
 }
 
 .uk-button {
-    font-family: 'GothamRounded-Light';
+    font-family: $cb-font-secondary;
     font-size: 12px;
     font-weight: bolder;
     color: $carbonbins-green;
@@ -24,16 +24,44 @@
     border-color: $carbonbins-pink;
 }
 
+.pink-card .uk-button {
+    color: $carbonbins-pink ;
+    background-color: $carbonbins-green;
+}
 .uk-button:hover
 {
     background-color: $carbonbins-grey;
     color: $carbonbins-pink;
 }
-.purple-card {
+
+.pink-card .uk-button:hover {
+    color: $carbonbins-white ;
+    background-color:$carbonbins-grey;
+}
+
+.pink-card {
     background-color: $carbonbins-pink;
     h3 {
-        font-family: 'Bookmania-Regular';
+        font-family: $cb-font-primary;
         color: $carbonbins-green;
+        font-weight: bolder;
+    }
+    p {
+        color: $carbonbins-green;
+        font-family: $cb-font-tertiary;
+    }
+}
+
+.grey-card {
+    border: solid 2px $carbonbins-pink;
+    background-color: $carbonbins-green;
+    h3 {
+        font-family: $cb-font-primary;
+        color: $carbonbins-pink;
         font-weight: bold;
+    }
+    p{
+        font-family: $cb-font-tertiary;
+        color: $carbonbins-pink;
     }
 }

@@ -1,21 +1,21 @@
 <footer>
-  <div class="uk-section uk-section-muted">
-    <div class="uk-container">
-    <div class="uk-child-width-1-2 uk-text-center uk-grid-match" uk-grid>
+  <div class="uk-container uk-padding-remove">
+    <div class="pink-card uk-container uk-padding-remove-horizontal ">
+    <div class="uk-child-width-1-2 uk-text-center uk-grid-match " uk-grid>
     <div>
-      <div class="uk-card uk-card-default uk-card-body">
+      <div class="pink-card uk-card uk-card-default uk-card-body uk-text-left">
         <h3>Want to help out? Get in touch</h3>
-        <form class="uk-form-horizontal uk-margin-large">
+        <form class="uk-form-horizontal">
 
           <div class="uk-margin">
-            <label class="uk-form-label" for="form-horizontal-text">Name</label>
+            <label class="uk-form-label" for="form-horizontal-text">name:</label>
             <div class="uk-form-controls">
-              <input class="uk-input" id="form-horizontal-text" type="text" placeholder="Your Name">
+              <input class="uk-input" id="form-horizontal-text" type="text" placeholder="Your name">
             </div>
           </div>
 
           <div class="uk-margin">
-            <label class="uk-form-label" for="form-horizontal-text">email</label>
+            <label class="uk-form-label" for="form-horizontal-text">email:</label>
             <div class="uk-form-controls">
               <input class="uk-input" id="form-horizontal-email" type="text" placeholder="Your email">
             </div>
@@ -25,12 +25,14 @@
       </div>
     </div>
     <div>
-      <div class="uk-child-width-1-2 uk-text-center uk-grid-match" uk-grid>
+      <div class="pink-card uk-child-width-1-2 uk-text-center uk-grid-match" uk-grid>
         <div>
-          <div class="uk-card uk-card-primary uk-card-body">
-            Links
-            <ul class="uk-subnav uk-subnav-divider" uk-margin>
-              <li class="uk-active">
+          <div class="uk-card uk-padding uk-text-left">
+            <ul class="uk-nav" uk-margin>
+              <li class="uk-nav-header">
+                Links
+              </li>
+              <li>
                 <a href="#">
                   Terms & Conditions
                 </a>
@@ -44,10 +46,12 @@
           </div>
         </div>
         <div>
-          <div class="uk-card uk-card-primary uk-card-body">
-            Follow Us
-            <ul class="uk-subnav uk-subnav-divider" uk-margin>
-              <li class="uk-active">
+          <div class="pink-card uk-card uk-padding uk-text-left">
+            <ul class="uk-nav" uk-margin>
+              <li class="uk-nav-header">
+                Follow Us
+              </li>
+              <li>
                 <a href="#">
                   Facebook
                 </a>
@@ -67,11 +71,14 @@
 
     <div class="uk-text-center uk-grid-match" uk-grid>
       <div class="uk-width-3-4">
-        <div class="uk-card uk-card-default uk-card-body"><p>CarbonBins is a not-for-profit organisation</p></div>
+        <div class="uk-card uk-padding uk-padding-remove-top uk-text-left">
+          <p>CarbonBins is a not-for-profit
+            organisation</p>
+        </div>
       </div>
       <div class="uk-width-1-4">
-        <div class="uk-card uk-card-default uk-card-body"><img src="/img/carbon_bins_footer_logo.png" height="128"
-                                                               width="102"/></div>
+        <div class="uk-card">
+          <img src="/img/carbon_bins_footer_logo.png" width="40px"/></div>
       </div>
     </div>
 

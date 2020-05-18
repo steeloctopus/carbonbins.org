@@ -21,7 +21,7 @@
 </head>
 
 <body>
-<div class="uk-section uk-section-muted uk-padding-remove">
+<div class="uk-section uk-padding-remove">
   <div class="hero uk-container">
     <div class="uk-margin-small uk-padding-small uk-padding-remove-horizontal" uk-margin>
       <!--[if IE]>
