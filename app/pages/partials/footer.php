@@ -1,9 +1,9 @@
 <footer>
   <div class="uk-container uk-padding-remove">
-    <div class="pink-card uk-container uk-padding-remove-horizontal ">
+    <div class="pink-card uk-container uk-padding-remove-horizontal">
     <div class="uk-child-width-1-2@m uk-text-center uk-grid-match " uk-grid>
     <div>
-      <div class="pink-card uk-card uk-card-default uk-card-body uk-text-left">
+      <div class="pink-card uk-card uk-card-body uk-text-left">
         <h3>Want to help out? Get in touch</h3>
         <form class="uk-form-horizontal">
 

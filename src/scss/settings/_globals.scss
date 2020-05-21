@@ -2,62 +2,67 @@ p {
     font-family: $cb-font-secondary;
     font-size: 14px;
 }
+
 .content {
-      h1, h3 {
-          font-family: $cb-font-primary;
-          font-weight: bold;
-          font-size: 40px;
-          color: $carbonbins-pink;;
-          line-height: 46px;
-      }
+    h1, h3 {
+        font-family: $cb-font-primary;
+        font-weight: bold;
+        font-size: 40px;
+        color: $carbonbins-pink;;
+        line-height: 46px;
+    }
 
-      h2 {
-          font-family: $cb-font-tertiary;
-          font-size: 30px;
-          line-height: 30px;
-          color: $carbonbins-white;
-          margin: 0px;
-      }
+    h2 {
+        font-family: $cb-font-tertiary;
+        font-size: 30px;
+        line-height: 30px;
+        color: $carbonbins-white;
+        margin: 0px;
+    }
 
-      h3 {
-          font-family: $cb-font-secondary;
-          font-size: 20px;
-          line-height: 20px;
-          color: $carbonbins-pink;
-          margin: 10px 0px;
-      }
+    h3 {
+        font-family: $cb-font-secondary;
+        font-size: 20px;
+        line-height: 20px;
+        color: $carbonbins-pink;
+        margin: 10px 0px;
+    }
 
-      p {
-          color: $carbonbins-white;
-          font-family: $cb-font-secondary;
-      }
+    p {
+        color: $carbonbins-white;
+        font-family: $cb-font-secondary;
+    }
 
-      .top {
-          vertical-align: top;
-      }
+    ol, ul {
+        color: $carbonbins-white;
+    }
 
-      blockquote, figcaption {
-          color: $carbonbins-white;
-      }
+    .top {
+        vertical-align: top;
+    }
 
-      a {
-          color: $carbonbins-pink;
-          text-decoration: underline;
-      }
+    blockquote, figcaption {
+        color: $carbonbins-white;
+    }
 
-      .uk-button {
-          color: $carbonbins-green;
-          text-decoration: none;
-      }
+    a {
+        color: $carbonbins-pink;
+        text-decoration: underline;
+    }
 
-      a:hover {
-          color: $carbonbins-white;
-          text-decoration: none;
-      }
-  }
+    .uk-button {
+        color: $carbonbins-green;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: $carbonbins-white;
+        text-decoration: none;
+    }
+}
 
 // Desktop Background images
-@media screen and (min-width: 640px)  {
+@media screen and (min-width: 640px) {
     .clouds {
         background-image: url("/img/raining.png");
         background-position: 95% 15%;
@@ -126,6 +131,7 @@ footer {
 
     .uk-input {
         background-color: transparent;
+        border: none;
         border-bottom: 2px solid $carbonbins-green;
         font-family: $cb-font-primary;
     }
@@ -139,21 +145,22 @@ footer {
         color: $carbonbins-green;
     }
 
-    .uk-nav, .uk-nav-header
-    {
+    .uk-nav, .uk-nav-header {
         font-family: $cb-font-primary;
         font-weight: bolder;
         font-size: 1em;
         text-transform: capitalize;
         color: $carbonbins-green;
         padding: 0px;
-        li a{
+
+        li a {
             color: $carbonbins-green;
             text-decoration: underline;
             padding: 0px;
             font-weight: normal;
         }
-        li a:hover{
+
+        li a:hover {
             color: $carbonbins-white;
             text-decoration: none;
         }
