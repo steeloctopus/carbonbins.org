@@ -1,6 +1,6 @@
 <?php include('partials/header.php') ?>
 
-<div class="content uk-section">
+<div class="content uk-section star">
   <div class="uk-container">
     <div class="uk-panel uk-margin-small">
       <div class="uk-width-2-3@m">
@@ -23,9 +23,9 @@
       </div>
     </div>
 
-    <div class="founding-members uk-grid-match" uk-grid>
-      <div>
-        <div class="uk-card uk-width-auto@m uk-card-default">
+    <div class="founding-members uk-grid-match uk-width-2-3@s" uk-grid>
+      <div class="uk-flex-center uk-width-1-3@s">
+        <div class="uk-card uk-width-auto uk-card-default">
           <div class="uk-card-media-top">
             <img src="../img/people/t_willis.png" alt="">
           </div>
@@ -38,8 +38,8 @@
           </div>
         </div>
       </div>
-      <div>
-        <div class="uk-card uk-width-auto@m uk-card-default">
+      <div class="uk-flex-center uk-width-1-3@s">
+        <div class="uk-card uk-width-auto uk-card-default">
           <div class="uk-card-media-top">
             <img src="../img/people/s_elliot.png" alt="">
           </div>
@@ -50,8 +50,8 @@
           </div>
         </div>
       </div>
-      <div>
-        <div class="uk-card uk-width-auto@m uk-card-default">
+      <div class="uk-flex-center uk-width-1-3@s">
+        <div class="uk-card uk-width-auto uk-card-default">
           <div class="uk-card-media-top">
             <img src="../img/people/n_tokita.png" alt="">
           </div>
@@ -62,12 +62,8 @@
           </div>
         </div>
       </div>
-    </div>
-
-
-    <div class="founding-members uk-grid-match" uk-grid>
-      <div>
-        <div class="uk-card uk-width-auto@m uk-card-default">
+      <div class="uk-flex-center uk-width-1-3@s">
+        <div class="uk-card uk-width-auto uk-card-default">
           <div class="uk-card-media-top">
             <img src="../img/people/m_guillou.png" alt="">
           </div>
@@ -79,8 +75,8 @@
           </div>
         </div>
       </div>
-      <div>
-        <div class="uk-card uk-width-auto@m uk-card-default">
+      <div class="uk-flex-center uk-width-1-3@s">
+        <div class="uk-card uk-width-auto uk-card-default">
           <div class="uk-card-media-top">
             <img src="../img/people/d_milburn.png" alt="">
           </div>
@@ -92,8 +88,8 @@
           </div>
         </div>
       </div>
-      <div>
-        <div class="uk-card uk-width-auto@m uk-card-default">
+      <div class="uk-flex-center uk-width-1-3@s">
+        <div class="uk-card uk-width-auto uk-card-default">
           <div class="uk-card-media-top">
             <img src="../img/people/r_enright.png" alt="">
           </div>

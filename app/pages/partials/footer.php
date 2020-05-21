@@ -1,7 +1,7 @@
 <footer>
   <div class="uk-container uk-padding-remove">
     <div class="pink-card uk-container uk-padding-remove-horizontal ">
-    <div class="uk-child-width-1-2 uk-text-center uk-grid-match " uk-grid>
+    <div class="uk-child-width-1-2@m uk-text-center uk-grid-match " uk-grid>
     <div>
       <div class="pink-card uk-card uk-card-default uk-card-body uk-text-left">
         <h3>Want to help out? Get in touch</h3>
@@ -25,10 +25,10 @@
       </div>
     </div>
     <div>
-      <div class="pink-card uk-child-width-1-2 uk-text-center uk-grid-match" uk-grid>
+      <div class="pink-card uk-child-width-1-2@m  uk-text-center uk-grid-match " uk-grid>
         <div>
           <div class="uk-card uk-padding uk-text-left">
-            <ul class="uk-nav" uk-margin>
+            <ul class="uk-nav">
               <li class="uk-nav-header">
                 Links
               </li>
@@ -47,7 +47,7 @@
         </div>
         <div>
           <div class="pink-card uk-card uk-padding uk-text-left">
-            <ul class="uk-nav" uk-margin>
+            <ul class="uk-nav">
               <li class="uk-nav-header">
                 Follow Us
               </li>

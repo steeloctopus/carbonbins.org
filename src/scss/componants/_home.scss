@@ -1,11 +1,15 @@
 .home {
-    background-image: url("/img/planet.png") ;
-    background-repeat: no-repeat;
-    background-position: right center ;
     padding-top: 50px;
     padding-bottom: 250px;
     background-color: $carbonbins-green;
     color: $carbonbins-white;
+
+    @media screen and (min-width: 640px)
+    {
+        background-image: url("/img/planet.png") ;
+        background-repeat: no-repeat;
+        background-position: right center ;
+    }
 }
 .home h1 {
     font-family: $cb-font-primary;
@@ -22,11 +26,15 @@
     color: $carbonbins-green;
     background-color: $carbonbins-pink;
     border-color: $carbonbins-pink;
+    padding: 15px;
+    line-height: normal;
 }
 
-.pink-card .uk-button {
+.pink-card .uk-button, .founding-members .uk-button {
     color: $carbonbins-pink ;
     background-color: $carbonbins-green;
+    padding: 15px;
+    line-height: normal;
 }
 .uk-button:hover
 {
@@ -34,7 +42,7 @@
     color: $carbonbins-pink;
 }
 
-.pink-card .uk-button:hover {
+.pink-card .uk-button:hover, .founding-members .uk-button:hover {
     color: $carbonbins-white ;
     background-color:$carbonbins-grey;
 }

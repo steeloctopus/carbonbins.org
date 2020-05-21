@@ -27,12 +27,28 @@ p {
   font-size: 14px;
 }
 
-.content h1 {
+.content h1, .content h3 {
   font-family: "Bookmania-Regular";
   font-weight: bold;
   font-size: 40px;
   color: #CFA6CD;
   line-height: 46px;
+}
+
+.content h2 {
+  font-family: "GothamRounded-Book";
+  font-size: 30px;
+  line-height: 30px;
+  color: #FFFFFF;
+  margin: 0px;
+}
+
+.content h3 {
+  font-family: "GothamRounded-Light";
+  font-size: 20px;
+  line-height: 20px;
+  color: #CFA6CD;
+  margin: 10px 0px;
 }
 
 .content p {
@@ -42,6 +58,64 @@ p {
 
 .content .top {
   vertical-align: top;
+}
+
+.content blockquote, .content figcaption {
+  color: #FFFFFF;
+}
+
+.content a {
+  color: #CFA6CD;
+  text-decoration: underline;
+}
+
+.content .uk-button {
+  color: #296D2D;
+  text-decoration: none;
+}
+
+.content a:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 640px) {
+  .clouds {
+    background-image: url("/img/raining.png");
+    background-position: 95% 15%;
+    background-repeat: no-repeat;
+    background-size: 300px;
+  }
+  .bin {
+    background-image: url("/img/bin.png");
+    background-position: 95% 15%;
+    background-repeat: no-repeat;
+    background-size: 300px;
+  }
+  .star {
+    background-image: url("/img/star.png");
+    background-position: 95% 15%;
+    background-repeat: no-repeat;
+    background-size: 300px;
+  }
+  .face {
+    background-image: url("/img/large_face.png");
+    background-position: 95% 15%;
+    background-repeat: no-repeat;
+    background-size: 300px;
+  }
+  .coins {
+    background-image: url("/img/coins.png");
+    background-position: 95% 15%;
+    background-repeat: no-repeat;
+    background-size: 300px;
+  }
+  .tree {
+    background-image: url("/img/trees.png");
+    background-position: 95% 15%;
+    background-repeat: no-repeat;
+    background-size: 300px;
+  }
 }
 
 body {
@@ -80,6 +154,27 @@ footer .uk-input:focus {
 footer .pink-card p {
   font-family: "Bookmania-Regular";
   color: #296D2D;
+}
+
+footer .uk-nav, footer .uk-nav-header {
+  font-family: "Bookmania-Regular";
+  font-weight: bolder;
+  font-size: 1em;
+  text-transform: capitalize;
+  color: #296D2D;
+  padding: 0px;
+}
+
+footer .uk-nav li a, footer .uk-nav-header li a {
+  color: #296D2D;
+  text-decoration: underline;
+  padding: 0px;
+  font-weight: normal;
+}
+
+footer .uk-nav li a:hover, footer .uk-nav-header li a:hover {
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 /* ========================================================================
@@ -12025,6 +12120,7 @@ iframe.uk-cover {
 
 .hero, .uk-navbar-nav {
   background: #296D2D;
+  padding-top: 10px;
 }
 
 .hero .uk-navbar-nav .uk-active a {
@@ -12032,13 +12128,18 @@ iframe.uk-cover {
 }
 
 .home {
-  background-image: url("/img/planet.png");
-  background-repeat: no-repeat;
-  background-position: right center;
   padding-top: 50px;
   padding-bottom: 250px;
   background-color: #296D2D;
   color: #FFFFFF;
+}
+
+@media screen and (min-width: 640px) {
+  .home {
+    background-image: url("/img/planet.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
 }
 
 .home h1 {
@@ -12056,11 +12157,15 @@ iframe.uk-cover {
   color: #296D2D;
   background-color: #CFA6CD;
   border-color: #CFA6CD;
+  padding: 15px;
+  line-height: normal;
 }
 
-.pink-card .uk-button {
+.pink-card .uk-button, .founding-members .uk-button {
   color: #CFA6CD;
   background-color: #296D2D;
+  padding: 15px;
+  line-height: normal;
 }
 
 .uk-button:hover {
@@ -12068,7 +12173,7 @@ iframe.uk-cover {
   color: #CFA6CD;
 }
 
-.pink-card .uk-button:hover {
+.pink-card .uk-button:hover, .founding-members .uk-button:hover {
   color: #FFFFFF;
   background-color: #666666;
 }

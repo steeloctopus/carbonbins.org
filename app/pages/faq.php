@@ -1,10 +1,10 @@
 <?php include('partials/header.php') ?>
 
-<div class="content uk-section">
+<div class="content uk-section tree">
   <div class="uk-container">
     <div class="uk-panel uk-margin-medium">
       <div class="uk-flex-middle" uk-grid>
-        <div class="uk-width-3-3@m">
+        <div class="uk-width-2-3@m">
 
           <h1>Frequently Asked Questions</h1>
           <p>Our approach of crowdfunding carbon removal is new - we understand that you probably have some questions

@@ -1,6 +1,6 @@
 <?php include('partials/header.php') ?>
 
-<div class="content uk-section">
+<div class="content uk-section coins">
   <div class="uk-container">
     <div class="uk-panel uk-margin-medium">
       <div class="uk-flex-middle" uk-grid>
