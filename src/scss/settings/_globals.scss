@@ -3,6 +3,21 @@ p {
     font-size: 14px;
 }
 
+.desktop-menu{
+    display: none;
+}
+.mobile-menu {
+    display: block;
+    .uk-navbar-toggle {
+        color: $carbonbins-pink;
+        min-height: 33px;
+    }
+}
+
+.mobile-menu .uk-navbar-toggle:focus,
+.mobile-menu .uk-navbar-toggle:hover{
+    color: $carbonbins-white;
+}
 .content {
     h1, h3 {
         font-family: $cb-font-primary;
@@ -103,6 +118,13 @@ p {
         background-position: 95% 15%;
         background-repeat: no-repeat;
         background-size: 300px;
+    }
+    .desktop-menu
+    {
+        display: block;
+    }
+    .mobile-menu{
+        display: none;
     }
 }
 

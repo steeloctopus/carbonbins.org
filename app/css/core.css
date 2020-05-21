@@ -28,6 +28,24 @@ p {
   font-size: 14px;
 }
 
+.desktop-menu {
+  display: none;
+}
+
+.mobile-menu {
+  display: block;
+}
+
+.mobile-menu .uk-navbar-toggle {
+  color: #CFA6CD;
+  min-height: 33px;
+}
+
+.mobile-menu .uk-navbar-toggle:focus,
+.mobile-menu .uk-navbar-toggle:hover {
+  color: #FFFFFF;
+}
+
 .content h1, .content h3 {
   font-family: "Bookmania-Regular";
   font-weight: bold;
@@ -120,6 +138,12 @@ p {
     background-position: 95% 15%;
     background-repeat: no-repeat;
     background-size: 300px;
+  }
+  .desktop-menu {
+    display: block;
+  }
+  .mobile-menu {
+    display: none;
   }
 }
 
